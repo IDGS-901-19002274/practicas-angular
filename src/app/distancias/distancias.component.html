@@ -1,0 +1,25 @@
+<div class="my-content">
+    <div class="card">
+      <div class="card-body">
+        <h1>Distancias</h1>
+        <hr><br><br>
+        <mat-form-field>
+            <input matInput placeholder="X1" type="number" [(ngModel)]="x1">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="y1" type="number" [(ngModel)]="y1">
+        </mat-form-field>
+        <br><br>
+        <mat-form-field>
+            <input matInput placeholder="X2" type="number" [(ngModel)]="x2">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="y2" type="number" [(ngModel)]="y2">
+        </mat-form-field>
+      </div>
+
+      <button mat-stroked-button color="accent" (click)="calcular()">Calcular</button>
+
+      <h2> {{resultado}} </h2>
+    </div>
+  </div>
