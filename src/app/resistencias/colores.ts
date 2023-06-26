@@ -70,3 +70,24 @@ export var colors = [
         multiplicator : 1000000000
     },
 ]
+
+export var resistencias = [
+    {
+        color : 'Rojo',
+        hex : '#E74C3C',
+        text : 'white',
+        tolerancia : 2
+    },
+    {
+        color : 'Dorado',
+        hex : '#D4AC0D ',
+        text : 'white',
+        tolerancia : 5
+    },
+    {
+        color : 'Plata',
+        hex : '#B3B6B7',
+        text : 'black',
+        tolerancia : 10
+    }
+]
